@@ -30,7 +30,7 @@ void main (void) {
     struct timeval begin, end;
     gettimeofday(&begin, 0);
 
-    int ind=5;
+    int ind=1000000000;
     fibobu(ind,0);
     printf ("%ld \n", memo[ind]);
 

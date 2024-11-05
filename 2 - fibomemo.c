@@ -36,7 +36,7 @@ void main (void) {
     struct timeval begin, end;
     gettimeofday(&begin, 0);
 
-    fibonaccir(5,0, &f, &f1);
+    fibonaccir(100000,0, &f, &f1);
     printf ("%ld \n", f);
 
     gettimeofday(&end, 0);
@@ -44,5 +44,5 @@ void main (void) {
     long seconds = end.tv_sec - begin.tv_sec;
     long microseconds = end.tv_usec - begin.tv_usec;
     long elapsed = seconds*1e6 + microseconds;
-    printf("%ld\t ", elapsed);
+    printf("HEREEE %ld\t ", elapsed);
 }

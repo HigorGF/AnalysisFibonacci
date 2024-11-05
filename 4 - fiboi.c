@@ -34,7 +34,7 @@ void main (void) {
     struct timeval begin, end;
     gettimeofday(&begin, 0);
 
-    printf ("%ld \n", fiboi(5, 0));
+    printf ("%ld \n", fiboi(1000000000, 0));
 
     gettimeofday(&end, 0);
 
