@@ -10,6 +10,8 @@ void indent(int n) {
   }
 }
 
+//Teste
+
 long int fibonaccir(long int n, int nivel) {
 	indent(nivel);
 	printf ("%02d - Entrou no cálculo de F(%ld). \n", ++callOrder, n);
